@@ -1,0 +1,74 @@
+#article {
+	background: rgba(0, 0, 0, 0.8);
+	float: left;
+	margin-bottom: 50px;
+}
+
+#mess {
+	margin: 20px;
+	float: left;
+	color:  white;
+	font-family: "Prof", sans-serif;
+	font-size: 19px;
+}
+
+.data {
+	font-size: 14px;
+	font-family: "Arial";
+	text-align: center;
+	width: 100%;
+}
+
+#mess img {
+	clear: both;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	clear: left;
+	width: 60%;
+	min-width: 220px;
+}
+
+.read {
+	color: #d92e2e;
+	float: left;
+}
+
+.clear {
+	clear: left;
+	float: left;
+}
+
+#comments {
+	float: left;
+	padding-bottom: 20px;
+}
+
+#show {
+	float: left;
+}
+
+#textarea {
+	resize: none;
+	margin: 20px;
+	padding: 5px;
+	border: 3px solid #d92e2e;
+	border-radius: 5px;
+	width: 90%;
+}
+
+.send {
+	float: left;
+	margin: -10px 30px 40px 67%;
+}
+
+.warning {
+	color: red;
+	font-size: 20px;
+	font-family: "Prof", sans-serif;
+	margin: 20px;
+	float: left;
+}
+.comm {
+	margin-left: 20px;
+}

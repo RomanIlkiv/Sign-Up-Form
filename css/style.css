@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@font-face {
+    font-family: "Rok";
+    src: url(../fonts/ROkIsiRK.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    
+}
+
+body {
+    background-image: url(../img/462317932.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+#my_form {
+    margin-bottom: 100px;   
+}
+
+#my_form form {
+    margin-top: 25px;
+    
+}
+
+.my_label {
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.my_input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 12px;
+    border: 2px solid #9d9393;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.my_input:focus {
+    border: 2px solid #b13636;
+    background-color: rgba(255, 255, 255, 1);
+    transition: 0.7s ease;
+}
+
+#block_radio {
+    width: 100%; 
+    float: left;
+}
+
+#block_radio .radio {
+    font-size: 15px;
+    color: aliceblue;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-right: 5px;
+}
+
+#man, #woman {
+    float: left;
+    margin-right: 20px;
+}
+
+#file {
+    font-size: 15px;
+    color: aliceblue;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+}
+
+.button {
+    padding: 7px 35px 7px 35px;
+    background: linear-gradient(to bottom, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    color: black;
+    margin-top: 20px;
+}
+
+.capcha {
+    position: absolute;
+    margin-left: 118px;
+    margin-top: -89px;
+}
+
+.capcha_img {
+    float: left;
+    margin-top: -75px;
+/*    float: left;*/
+}
+
+.capcha_img_xs {
+    margin-top: 20px;
+}
+
+.capcha_xs {
+    float: left; 
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.messageBlock {
+    position: absolute;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    height: 40px;
+    color: white;
+    font-size: 17px;
+    font-family: "Rok", sans-serif;
+    padding-top: 8px;
+}
+
+.Error {
+    background: red;   
+}
+
+.Warning {
+    background: #f0f025;   
+}
+
+.Success {
+    background: #00ce00;
+    font-size: 15px;
+}
+
+.AcceptBlock {
+    position: absolute;
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 14px;
+}
+
+#result {
+	background: rgba(0, 0, 0, 0.78);
+}
+
+#result h2 {
+	color: white;
+	text-align: center;
+}
+
+.no_result {
+	color: red;
+	font-size: 20px;
+	text-align: center;
+	margin: 50px;
+}

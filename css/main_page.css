@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Prof";
+    src: url(../fonts/profile.otf);
+}
+
+.menu {
+    background: #ededed;
+    opacity: 0.8;
+    border-radius: 0 0 20px 20px;
+/*    height: 65px;*/
+}
+
+.menu:hover {
+    opacity: 1;
+    transition: 0.7s ease;
+}
+
+.brand {
+    color: #363636;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: -60px;
+}
+
+.brand:hover {
+    color: black;
+}
+
+.list {
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#list_xs {
+    margin-right: 8%;
+}
+
+#list_xs li {
+    display: inline-block;   
+}
+
+.list > li > a {
+    color: #656565;   
+}
+
+.list > li > a:hover {
+    color: black;   
+}
+
+/*_________________NEWS_________________*/
+
+#news {
+/*	height: 556px;*/
+	background: rgba(0, 0, 0, 0.8);
+	float: left;
+	padding-bottom: 100px;
+}
+
+#news_menu {
+	float: left;
+	margin-left: 14%;
+}
+
+.category {
+	float: left;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 10px 40px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Prof", sans-serif;
+	width: 200px;
+}
+
+.category:hover {
+	text-decoration: none;
+}
+
+#articles {
+	width: 100%;
+	float: left;
+	margin-top: 60px;
+}
+
+.time {
+	width: 100%;
+	float: left;
+	color:  rgba(255, 255, 255, 0.89);
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+.title {
+	width: 100%;
+	float: left;
+	font-size: 22px;
+	color: #dd2b2b;
+	text-align: center;
+	font-family: "Prof", sans-serif;
+}
+
+/*Pagination*/
+#pagination {
+	float: left;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.Passive, .Active {
+	background: rgba(255, 255, 255, 0.8);
+	padding: 5px 15px;
+	margin-top: 10px;
+	
+}
+
+.Passive:hover, .Active:hover {
+	color: black;
+	text-decoration: none;
+	background-color: white;
+}
+
+.Active {
+	background: #dd2b2b;
+	color: white;
+}
+
+#sear {
+	position: absolute;
+	margin-top: 15px; 
+}
+
+.search {
+	width: 200px;
+	height: 30px;
+}
+
+.search_button {
+	background: linear-gradient(to bottom, rgba(252,255,244,1) 0%,rgba(223,229,215,1) 40%,rgba(179,190,173,1) 100%);
+	padding: 2px 8px;
+	border-radius: 5px;
+}

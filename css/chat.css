@@ -1,0 +1,33 @@
+#chat {
+	background: rgba(0, 0, 0, 0.8);
+	height: 450px;
+	float: left;
+	overflow: scroll;
+}
+
+#form {
+	float: right;
+	margin-right: 255px;
+	margin-top: 10px;
+}
+
+#form input {
+	margin-top: 0px;
+	margin-left: 5px;
+}
+
+#form textarea {
+	padding: 5px;
+	width: 730px;
+	resize: none;
+}
+
+.data {
+	color: white;
+	font-size: 14px;
+}
+
+.text {
+	color: red;
+	font-size: 16px;
+}
